@@ -5,7 +5,7 @@ export const Header = () => {
     return(
         <header id="header">
             <p className="text-center">
-                Moments
+                <span className='logo'>M</span>oments
             </p>
         </header>
     );

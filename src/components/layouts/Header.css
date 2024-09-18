@@ -2,9 +2,16 @@
   position: relative;
   padding-top: 20px;
   padding-bottom: 15px; }
+  #header .logo {
+    position: relative;
+    margin-right: 3px;
+    border-radius: 5px;
+    color: #98cb98;
+    border: 1px solid #98cb98;
+    padding: 5px; }
   #header p {
     position: relative;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold; }
 
 /*# sourceMappingURL=Header.css.map */
