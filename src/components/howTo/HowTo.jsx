@@ -50,7 +50,7 @@ export const HowTo = () => {
 
                         <br/>
 
-                        <div className="text-center">
+                        <div className="text-center"><br /><br />
                             <button type='button' className='btn btn-primary btn-lg'>
                                 Quero fazer meu site
                             </button>

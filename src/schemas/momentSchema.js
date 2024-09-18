@@ -5,7 +5,7 @@ export const initialValues = {
     relationshipDate: '',
     hour: '',
     message: '',
-    files: null
+    images: []
 };
 
 export const momentSchema = Yup.object().shape({
@@ -19,8 +19,5 @@ export const momentSchema = Yup.object().shape({
         .required('Campo obrigatório'),
     message: Yup.string()
         .min(10, 'Mensagem muito curta!')
-        .required('Campo obrigatório'),
-    files: Yup.mixed().test('fileSize', 'Você pode enviar no máximo 3 arquivos', (value) => {
-        return value && value.length <= 3;
-    })
+        .required('Campo obrigatório')
 });

@@ -1,0 +1,35 @@
+.slider {
+  display: flex;
+  align-items: center;
+  position: relative; }
+
+.slider-image {
+  flex: 1;
+  overflow: hidden;
+  text-align: center; }
+
+.slider-image img {
+  max-width: 100%;
+  height: auto; }
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer; }
+
+button:disabled {
+  background: rgba(0, 0, 0, 0.2);
+  cursor: not-allowed; }
+
+button:first-of-type {
+  left: 0; }
+
+button:last-of-type {
+  right: 0; }
+
+/*# sourceMappingURL=ImageSlider.css.map */
