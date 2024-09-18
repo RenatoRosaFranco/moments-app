@@ -7,7 +7,7 @@ import { createMoment } from "../../business/moment";
 import {toast} from "react-toastify";
 
 export const Hero = () => {
-    const [images, setImages] = useState([]);
+    const [setImages] = useState([]);
 
     const handleImageChange = (e, setFieldValue) => {
         const files = Array.from(e.target.files);
