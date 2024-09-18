@@ -1,0 +1,25 @@
+#brand {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 40px; }
+  #brand ul li {
+    position: relative;
+    margin-right: 25px; }
+    #brand ul li p {
+      position: relative;
+      font-size: 17px; }
+    #brand ul li a {
+      position: relative;
+      color: #FFF; }
+    #brand ul li .icon {
+      position: relative;
+      border: 1px solid #CCC;
+      padding: 8px;
+      border-radius: 50%; }
+      #brand ul li .icon:hover, #brand ul li .icon.over {
+        position: relative;
+        cursor: pointer;
+        border: 1px solid #98cb98;
+        color: #98cb98; }
+
+/*# sourceMappingURL=Brand.css.map */

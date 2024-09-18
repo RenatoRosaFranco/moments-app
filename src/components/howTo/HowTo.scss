@@ -1,0 +1,25 @@
+#how-to {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  .title {
+    position: relative;
+    margin-bottom: 35px;
+  }
+
+  .item {
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #98cb98;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  button {
+    position: relative;
+    color: #FFF;
+    border: 1px solid #98cb98;
+    background-color: #98cb98;
+  }
+}

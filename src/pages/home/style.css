@@ -1,0 +1,9 @@
+#home-page {
+  position: relative; }
+  #home-page #faq {
+    position: relative; }
+    #home-page #faq h2 {
+      position: relative;
+      margin-bottom: 25px; }
+
+/*# sourceMappingURL=style.css.map */

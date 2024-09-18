@@ -1,0 +1,57 @@
+#hero {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  #hero .description {
+    position: relative;
+    margin-top: 25px; }
+  #hero input[type=text],
+  #hero input[type=time],
+  #hero input[type=date] {
+    position: relative;
+    height: 40px; }
+  #hero textarea {
+    position: relative;
+    resize: none; }
+  #hero input[type='text'],
+  #hero input[type=time],
+  #hero input[type=date],
+  #hero input[type=file],
+  #hero textarea {
+    background-color: #030D21 !important; }
+  #hero .m-color {
+    color: #98cb98; }
+  #hero .m-border {
+    border: 1px solid #98cb98 !important; }
+  #hero .m-button {
+    color: #FFF;
+    background-color: #2c3441 !important;
+    border: 1px solid #2c3441 !important; }
+  #hero .badge {
+    position: relative;
+    font-weight: bold;
+    color: #98cb98;
+    background-color: transparent !important;
+    border: 1px solid #98cb98;
+    margin-left: 10px;
+    padding: 7px; }
+  #hero .card {
+    position: relative;
+    background-color: #202020 !important;
+    height: 520px;
+    width: 100%; }
+    #hero .card .card-url {
+      position: relative;
+      margin-top: -20px;
+      border: 1px solid #EEE;
+      padding: 5px;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 14px; }
+    #hero .card .card-images {
+      position: relative;
+      margin-top: 20px;
+      border: 1px solid #EEE;
+      height: 350px; }
+
+/*# sourceMappingURL=Hero.css.map */

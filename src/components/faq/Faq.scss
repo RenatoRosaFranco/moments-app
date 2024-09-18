@@ -1,0 +1,17 @@
+.faq {
+  position: relative;
+  border: 1px solid #98cb98 !important;
+  background-color: transparent !important;
+
+  .faq-title {
+    position: relative;
+    color: #98cb98;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .faq-answer {
+    position: relative;
+    font-size: 13px;
+  }
+}

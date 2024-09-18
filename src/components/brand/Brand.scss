@@ -1,0 +1,36 @@
+#brand {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 40px;
+
+  ul {
+    li {
+      position: relative;
+      margin-right: 25px;
+
+      p {
+        position: relative;
+        font-size: 17px;
+      }
+
+      a {
+        position: relative;
+        color: #FFF;
+      }
+
+      .icon {
+        position: relative;
+        border: 1px solid #CCC;
+        padding: 8px;
+        border-radius: 50%;
+
+        &:hover, &.over {
+          position: relative;
+          cursor: pointer;
+          border: 1px solid #98cb98;
+          color: #98cb98;
+        }
+      }
+    }
+  }
+}

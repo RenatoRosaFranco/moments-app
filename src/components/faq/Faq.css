@@ -1,0 +1,14 @@
+.faq {
+  position: relative;
+  border: 1px solid #98cb98 !important;
+  background-color: transparent !important; }
+  .faq .faq-title {
+    position: relative;
+    color: #98cb98;
+    font-size: 18px;
+    font-weight: bold; }
+  .faq .faq-answer {
+    position: relative;
+    font-size: 13px; }
+
+/*# sourceMappingURL=Faq.css.map */

@@ -1,0 +1,81 @@
+$main-color: rgba(152,203,152,255);
+
+#hero {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  .description {
+    position: relative;
+    margin-top: 25px;
+  }
+
+  input[type=text],
+  input[type=time],
+  input[type=date] {
+    position: relative;
+    height: 40px;
+  }
+
+  textarea {
+    position: relative;
+    resize: none;
+  }
+
+  input[type='text'],
+  input[type=time],
+  input[type=date],
+  input[type=file],
+  textarea {
+    background-color: #030D21 !important;
+  }
+
+  .m-color {
+    color: $main-color;
+  }
+
+  .m-border {
+    border: 1px solid $main-color !important;
+  }
+
+  .m-button {
+    color: #FFF;
+    background-color: rgb(44, 52, 65) !important;
+    border: 1px solid rgb(44, 52, 65) !important;
+  }
+
+  .badge {
+    position: relative;
+    font-weight: bold;
+    color: $main-color;
+    background-color: transparent !important;
+    border: 1px solid $main-color;
+    margin-left: 10px;
+    padding: 7px;
+  }
+
+  .card {
+    position: relative;
+    background-color: #202020 !important;
+    height: 520px;
+    width: 100%;
+
+    .card-url {
+      position: relative;
+      margin-top: -20px;
+      border: 1px solid #EEE;
+      padding: 5px;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .card-images {
+      position: relative;
+      margin-top: 20px;
+      border: 1px solid #EEE;
+      height: 350px;
+    }
+
+  }
+}
