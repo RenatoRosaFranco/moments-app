@@ -14,17 +14,17 @@ export const Brand = (props) => {
                                 <p>Em destaque no</p>
                             </li>
                             <li>
-                                <a href='https://tiktok.com/momentsApp' target='_blank'>
+                                <a href='https://tiktok.com/momentsApp' target='_blank' rel="noreferrer">
                                     <FontAwesomeIcon icon={faTiktok} size="2x" className='icon' />
                                 </a>
                             </li>
                             <li>
-                                <a href='https://instagram.com/momentsApp' target='_blank'>
+                                <a href='https://instagram.com/momentsApp' target='_blank' rel="noreferrer">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" className='icon' />
                                 </a>
                             </li>
                             <li>
-                                <a href='https://reddit.com/mommentsApp' target='_blank'>
+                                <a href='https://reddit.com/mommentsApp' target='_blank' rel="noreferrer">
                                     <FontAwesomeIcon icon={faReddit} size="2x" className='icon' />
                                 </a>
                             </li>
