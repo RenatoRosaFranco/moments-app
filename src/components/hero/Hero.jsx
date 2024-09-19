@@ -83,7 +83,7 @@ export const Hero = () => {
                                                             name="name"
                                                             type="text"
                                                             className="form-control m-border"
-                                                            placeholder='Dê a esse momento, um nome.'
+                                                            placeholder='Dê um nome ao seu momento.'
                                                         />
                                                         <ErrorMessage name="name" component="div" className="error" />
                                                     </div>
@@ -113,7 +113,7 @@ export const Hero = () => {
                                                         <Field
                                                             name="message"
                                                             as="textarea"
-                                                            placeholder='Escreva uma mensagem ou frase que para você expressa este momento.'
+                                                            placeholder='Escreva uma mensagem ou frase que expresse este momento.'
                                                             className="form-control m-border"
                                                             rows="3"
                                                         />

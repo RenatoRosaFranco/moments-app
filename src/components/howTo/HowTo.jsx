@@ -30,7 +30,7 @@ export const HowTo = () => {
         },
         {
             id: 4,
-            title: 'Faça uma surpresa para alguem especial ❤️'
+            title: 'Faça uma surpresa para alguém especial ❤️'
         }
     ];
 
@@ -51,7 +51,9 @@ export const HowTo = () => {
                         <br/>
 
                         <div className="text-center"><br /><br />
-                            <button type='button' className='btn btn-primary btn-lg'>
+                            <button type='button'
+                                    onClick={() => document.getElementById('hero').scrollIntoView({ behavior: 'smooth' })}
+                                    className='btn btn-primary btn-lg'>
                                 Quero fazer meu site
                             </button>
                         </div>
