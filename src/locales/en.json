@@ -1,0 +1,112 @@
+{
+  "app": {
+    "routes": {
+      "termsOfUse": "terms-of-use",
+      "policyPrivacy": "policy-privacy"
+    }
+  },
+  "hero": {
+    "newTitle": "News",
+    "news": {
+      "checklist": {
+        "title": "checklist for couples"
+      }
+    },
+    "momentForm":  {
+      "fields": {
+        "title": {
+          "name": "Name",
+          "happeningDate": "Happening Date",
+          "hour": "Hour",
+          "message": "Message",
+          "images": "Select at 3 images (.png/.bmp/jpeg)"
+        },
+        "placeholder": {
+          "name": "Give a name to your moment",
+          "message": "Write a message or phrase that expresses this moment."
+        }
+      },
+      "buttonRequestTitle": "Creating...",
+      "buttonTitle": "Create moment"
+    },
+    "howItLook": "How will it look"
+  },
+  "howTo": {
+    "title": "How it works",
+    "buttonText": "I want to create my site",
+    "howToItems": [
+      {
+        "id": 1,
+        "title": "Fill out the form with your details 📝"
+      },
+      {
+        "id": 2,
+        "title": "Make the payment through the platform 💰"
+      },
+      {
+        "id": 3,
+        "title": "Receive your website + QR Code via email ✉️"
+      },
+      {
+        "id": 4,
+        "title": "Surprise someone special ❤️"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": 1,
+        "title": "What is Moments?",
+        "answer": "Moments is a platform that allows you to create memories of special moments for yourself, whether with friends, a girlfriend/boyfriend, spouse, or family. You can add photos, a special message, and a live counter that shows how long this relationship has lasted."
+      },
+      {
+        "id": 2,
+        "title": "How can I create a personalized page on Moments?",
+        "answer": "To create a personalized page, fill out the form with the moment's name, the date it happened, a message, and select up to 5 photos. Then click the 'Create Moment' button and complete the payment."
+      },
+      {
+        "id": 4,
+        "title": "What's included in my personalized page?",
+        "answer": "Your personalized page will include a live counter showing how long this memory has lasted, a photo slideshow, and a special message for the moment. Additionally, there will be emojis falling on each photo."
+      },
+      {
+        "id": 5,
+        "title": "How do I receive my personalized page after payment?",
+        "answer": "After completing the payment, you will receive a QR code to share with someone special and a link via email to access your page."
+      },
+      {
+        "id": 6,
+        "title": "Can I edit my page after creating it?",
+        "answer": "Yes. Once you receive the link to your page, it will include an editing section that you can use to make changes."
+      },
+      {
+        "id": 7,
+        "title": "What is the cost to create a page on Moments?",
+        "answer": "Currently, the cost to create a page on Moments is only $19.00 for the basic version and $39.99 for the advanced version."
+      },
+      {
+        "id": 8,
+        "title": "How long does it take to receive the QR code via email?",
+        "answer": "Payments via pix and credit card are processed instantly. Payments via bank slip may take 1 to 3 business days to clear."
+      },
+      {
+        "id": 9,
+        "title": "What are the payment methods?",
+        "answer": "Currently, we accept payments via pix, bank slip, and credit card."
+      },
+      {
+        "id": 10,
+        "title": "How can I contact customer support?",
+        "answer": "You can contact our customer support via email at suporte@moments.com.br."
+      }
+    ]
+  },
+  "footer": {
+    "links": {
+      "termsOfUse": "Terms of use",
+      "policyPrivacy": "Policy privacy"
+    }
+  }
+}

@@ -1,13 +1,15 @@
 import React from 'react';
-import faqData  from '../../data/faqData.json';
+import { useTranslation } from "react-i18next";
 import './style.scss';
-import {HowTo} from "../../components/howTo/HowTo";
-import {Hero} from "../../components/hero/Hero";
-import {Faq} from "../../components/faq/Faq";
-import {Brand} from "../../components/brand/Brand";
+
+import { HowTo } from "../../components/howTo/HowTo";
+import { Hero } from "../../components/hero/Hero";
+import { Faq } from "../../components/faq/Faq";
+import { Brand } from "../../components/brand/Brand";
 
 const HomePage = () => {
-    let questions = faqData;
+    const { t } = useTranslation();
+    const questions = t('faq.items', { returnObjects: true });
 
     return(
         <section id="home-page">
@@ -19,7 +21,7 @@ const HomePage = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 col-md-offset-2">
-                            <h2 className="bold text-center">Perguntas Frequentes (FAQ)</h2>
+                            <h2 className="bold text-center">{t('faq.title')}</h2>
 
                             {questions.map((question, index) => (
                                 <Faq key={index} question={question} />

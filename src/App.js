@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.scss';
 
@@ -10,17 +11,22 @@ import { Footer } from "./components/layouts/Footer";
 import HomePage from "./pages/home/Index";
 
 function App() {
-  return (
-    <div className="App">
-      <Router>
-        <Header />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-        </Routes>
-        <Footer />
-      </Router>
-    </div>
-  );
+    const { t } = useTranslation();
+
+    return (
+        <div className="App">
+          <Router>
+              <Header />
+              <Routes>
+                <Route path="/" element={<HomePage />} />
+
+                <Route path={`/${t('app.routes.termsOfUse')}`} element={<HomePage />} />
+                <Route path={`/${t('app.routes.policyPrivacy')}`} element={<HomePage />} />
+              </Routes>
+              <Footer />
+          </Router>
+        </div>
+    );
 }
 
 export default App;

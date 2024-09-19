@@ -1,7 +1,10 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 import './Footer.scss';
 
 export const Footer = () => {
+    const { t } = useTranslation();
+
     return(
         <footer id="footer">
             <div className="container">
@@ -21,13 +24,13 @@ export const Footer = () => {
                                     </p>
                                 </li>
                                 <li>
-                                    <a href="/termos-de-uso">
-                                        Termos de uso
+                                    <a href={t('app.routes.termsOfUse')}>
+                                        { t("footer.links.termsOfUse") }
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/termos-de-privacidade">
-                                        Termos de privacidade
+                                    <a href={t('app.routes.policyPrivacy')}>
+                                        { t("footer.links.policyPrivacy") }
                                     </a>
                                 </li>
                             </ul>

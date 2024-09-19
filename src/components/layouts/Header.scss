@@ -6,4 +6,35 @@
     width: 204px;
     height: 204px;
   }
+
+  .language-selector {
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 85px;
+    border-radius: 12px;
+    z-index: 999;
+    padding: 5px;
+    background-color: transparent !important;
+    color: #FFF;
+    border: 1px solid #EEE;
+
+    select {
+      background: transparent;
+      border: none;
+      appearance: none;
+      outline: none;
+      padding: 5px;
+      width: 130px;
+    }
+  }
+
+  .language-selector::after {
+    content: '▼';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
 }

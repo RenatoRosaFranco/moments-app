@@ -1,0 +1,112 @@
+{
+  "app": {
+    "routes": {
+      "termsOfUse": "terminos-de-uso",
+      "policyPrivacy": "politica-de-privacidad"
+    }
+  },
+  "hero": {
+    "newTitle": "Novidad",
+    "news": {
+      "checklist": {
+        "title": "lista de verificación para parejas"
+      }
+    },
+    "momentForm":  {
+      "fields": {
+        "title": {
+          "name": "Nombre",
+          "happeningDate": "Fecha del evento",
+          "hour": "Hora",
+          "message": "Mensaje",
+          "images": "Selecciona al menos 3 imágenes (.png/.bmp/jpeg)"
+        },
+        "placeholder": {
+          "name": "Dale un nombre a tu momento",
+          "message": "Escribe un mensaje o frase que exprese este momento."
+        }
+      },
+      "buttonRequestTitle": "Creando...",
+      "buttonTitle": "Crear momento"
+    },
+    "howItLook": "Cómo se verá"
+  },
+  "howTo": {
+    "title": "Cómo funciona",
+    "buttonText": "Quiero hacer mi sitio",
+    "howToItems": [
+      {
+        "id": 1,
+        "title": "Rellena el formulario con tus datos 📝"
+      },
+      {
+        "id": 2,
+        "title": "Realiza el pago a través de la plataforma 💰"
+      },
+      {
+        "id": 3,
+        "title": "Recibe tu sitio web + código QR en tu correo ✉️"
+      },
+      {
+        "id": 4,
+        "title": "Haz una sorpresa para alguien especial ❤️"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "id": 1,
+        "title": "¿Qué es Moments?",
+        "answer": "Moments es una plataforma que te permite crear recuerdos de momentos especiales para ti, ya sea con amigos, novio(a), esposo(a) o en familia. Puedes añadir fotos, un mensaje especial y un contador en vivo que muestra cuánto tiempo ha durado esta relación."
+      },
+      {
+        "id": 2,
+        "title": "¿Cómo puedo crear una página personalizada en Moments?",
+        "answer": "Para crear una página personalizada, rellena el formulario con el nombre del momento, la fecha en que sucedió, un mensaje y selecciona hasta 5 fotos. Luego haz clic en el botón 'Crear Momento' y finaliza el pago."
+      },
+      {
+        "id": 4,
+        "title": "¿Qué incluye mi página personalizada?",
+        "answer": "Tu página personalizada incluirá un contador en vivo que muestra cuánto tiempo ha durado esta memoria, una presentación de diapositivas con tus fotos y un mensaje especial para el momento. Además, habrá emojis cayendo en cada foto."
+      },
+      {
+        "id": 5,
+        "title": "¿Cómo recibo mi página personalizada después del pago?",
+        "answer": "Después de completar el pago, recibirás un código QR para compartir con alguien especial y un enlace por correo electrónico para acceder a tu página."
+      },
+      {
+        "id": 6,
+        "title": "¿Puedo editar mi página después de crearla?",
+        "answer": "Sí. Una vez que recibas el enlace a tu página, incluirá una sección de edición que puedes usar para hacer cambios."
+      },
+      {
+        "id": 7,
+        "title": "¿Cuál es el costo para crear una página en Moments?",
+        "answer": "Actualmente, el costo para crear una página en Moments es de solo $19.00 para la versión básica y $39.99 para la versión avanzada."
+      },
+      {
+        "id": 8,
+        "title": "¿Cuánto tiempo tarda en llegar el código QR a mi correo electrónico?",
+        "answer": "Los pagos con pix y tarjeta de crédito se procesan instantáneamente. Los pagos mediante boleto bancario pueden tardar de 1 a 3 días hábiles en procesarse."
+      },
+      {
+        "id": 9,
+        "title": "¿Cuáles son las formas de pago?",
+        "answer": "Actualmente, aceptamos pagos a través de pix, boleto bancario y tarjeta de crédito."
+      },
+      {
+        "id": 10,
+        "title": "¿Cómo puedo contactar al servicio de atención al cliente?",
+        "answer": "Puedes contactar a nuestro servicio de atención al cliente a través del correo electrónico soporte@moments.com.br."
+      }
+    ]
+  },
+  "footer": {
+    "links": {
+      "termsOfUse": "Términos de Uso",
+      "policyPrivacy": "Política de Privacidad"
+    }
+  }
+}

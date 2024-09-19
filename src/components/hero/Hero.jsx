@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { initialValues, momentSchema } from "../../schemas/momentSchema";
 import './Hero.scss';
+
 import { ImageSlider } from "./ImageSlider";
 import { createMoment } from "../../business/moment";
 import {toast} from "react-toastify";
 
 export const Hero = () => {
     const [setImages] = useState([]);
+    const { t } = useTranslation();
 
     const handleImageChange = (e, setFieldValue) => {
         const files = Array.from(e.target.files);
@@ -65,7 +68,7 @@ export const Hero = () => {
                             {({ setFieldValue, values, isSubmitting, status }) => (
                                 <Form>
                                     <div className="col-md-8" style={{ paddingRight: 80 }}>
-                                        <h5>Novidade: <span className='badge'>Checklist para casais</span></h5>
+                                        <h5>{t('hero.newTitle')}: <span className='badge'>{t('hero.news.checklist.title')}</span></h5>
                                         <h1 className='title bold'>Crie <span className='m-color'>memórias</span>
                                             <br /> compartilhe <span className='m-color'>momentos</span>.</h1>
                                         <p className='description'>Crie um contador dinâmico de tempo de sua memória especial.
@@ -78,18 +81,18 @@ export const Hero = () => {
                                             <div className="col-md-12">
                                                 <div className='row'>
                                                     <div className="form-group col-md-6">
-                                                        <label htmlFor="name">Nome</label>
+                                                        <label htmlFor="name">{t('hero.momentForm.fields.title.name')}</label>
                                                         <Field
                                                             name="name"
                                                             type="text"
                                                             className="form-control m-border"
-                                                            placeholder='Dê um nome ao seu momento.'
+                                                            placeholder={t('hero.momentForm.fields.placeholder.name')}
                                                         />
                                                         <ErrorMessage name="name" component="div" className="error" />
                                                     </div>
 
                                                     <div className="form-group col-md-6">
-                                                        <label htmlFor="relationshipDate">Data do Acontecimento</label>
+                                                        <label htmlFor="relationshipDate">{t('hero.momentForm.fields.title.happeningDate')}</label>
                                                         <Field
                                                             name="relationshipDate"
                                                             type="date"
@@ -99,7 +102,7 @@ export const Hero = () => {
                                                     </div>
 
                                                     <div className="form-group col-md-12">
-                                                        <label htmlFor="hour">Hora</label>
+                                                        <label htmlFor="hour">{t('hero.momentForm.fields.title.hour')}</label>
                                                         <Field
                                                             name="hour"
                                                             type="time"
@@ -109,11 +112,11 @@ export const Hero = () => {
                                                     </div>
 
                                                     <div className="form-group col-md-12">
-                                                        <label htmlFor="message">Mensagem</label>
+                                                        <label htmlFor="message">{t('hero.momentForm.fields.title.message')}</label>
                                                         <Field
                                                             name="message"
                                                             as="textarea"
-                                                            placeholder='Escreva uma mensagem ou frase que expresse este momento.'
+                                                            placeholder={t('hero.momentForm.fields.placeholder.message')}
                                                             className="form-control m-border"
                                                             rows="3"
                                                         />
@@ -121,7 +124,7 @@ export const Hero = () => {
                                                     </div>
 
                                                     <div className="form-group col-md-12">
-                                                        <label htmlFor="images">Selecione até 3 arquivos</label>
+                                                        <label htmlFor="images">{t('hero.momentForm.fields.title.images')}</label>
                                                         <input
                                                             name="images"
                                                             type="file"
@@ -138,7 +141,7 @@ export const Hero = () => {
                                     <div className="col-md-4">
                                         <div id="page-card">
                                             <p className='text-center'>
-                                                Como vai ficar 👇
+                                                {t('hero.howItLook')} 👇
                                             </p>
 
                                             <div className="card jumbotron">
@@ -162,7 +165,7 @@ export const Hero = () => {
                                                     padding: '15px'
                                                 }}
                                             >
-                                                {isSubmitting ? 'Gerando...' : 'Criar momento'}
+                                                { isSubmitting ? t('hero.momentForm.buttonRequestTitle') : t('hero.momentForm.buttonTitle') }
                                             </button>
                                         </div>
                                     </div>

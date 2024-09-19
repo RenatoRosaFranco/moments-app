@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './HowTo.scss';
 
 function HowToItem({ item }) {
@@ -14,32 +15,21 @@ function HowToItem({ item }) {
         </div>
     );
 }
+
+const handleScroll = () => (
+    () => document.getElementById('hero').scrollIntoView({ behavior: 'smooth' })
+);
+
 export const HowTo = () => {
-    const howToItems = [
-        {
-            id: 1,
-            title: 'Preencha o formulário com seus dados 📝'
-        },
-        {
-            id: 2,
-            title: 'Faça o pagamento pela plataforma 💰'
-        },
-        {
-            id: 3,
-            title: 'Receba o seu site + QR Code no e-mail ✉️'
-        },
-        {
-            id: 4,
-            title: 'Faça uma surpresa para alguém especial ❤️'
-        }
-    ];
+    const { t } = useTranslation();
+    const howToItems = t('howTo.howToItems', { returnObjects: true });
 
     return (
         <section id="how-to">
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className="bold title text-center">Como funciona</h2>
+                        <h2 className="bold title text-center">{t('howTo.title')}</h2>
                         <br />
 
                         <div className="row">
@@ -52,9 +42,9 @@ export const HowTo = () => {
 
                         <div className="text-center"><br /><br />
                             <button type='button'
-                                    onClick={() => document.getElementById('hero').scrollIntoView({ behavior: 'smooth' })}
+                                    onClick={ handleScroll('hero') }
                                     className='btn btn-primary btn-lg'>
-                                Quero fazer meu site
+                                {t('howTo.buttonText')}
                             </button>
                         </div>
                     </div>

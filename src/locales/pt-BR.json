@@ -1,0 +1,112 @@
+{
+  "app": {
+    "routes": {
+      "termsOfUse": "termos-de-uso",
+      "policyPrivacy": "politica-de-privacidade"
+    }
+  },
+  "hero": {
+    "newTitle": "Novidade",
+    "news": {
+      "checklist": {
+        "title": "checklist para casais"
+      }
+    },
+    "momentForm":  {
+      "fields": {
+        "title": {
+          "name": "Nome",
+          "happeningDate": "Data do evento",
+          "hour": "Hora",
+          "message": "Mensagem",
+          "images": "Selecione pelo menos 3 imagens (.png/.bmp/jpeg)"
+        },
+        "placeholder": {
+          "name": "Dê um nome ao seu momento",
+          "message": "Escreva uma mensagem ou frase que expresse este momento."
+        }
+      },
+      "buttonRequestTitle": "Criando...",
+      "buttonTitle": "Criar momento"
+    },
+    "howItLook": "Como ficará"
+  },
+  "howTo": {
+    "title": "Como funciona",
+    "buttonText": "Quero fazer meu site",
+    "howToItems": [
+      {
+        "id": 1,
+        "title": "Preencha o formulário com seus dados 📝"
+      },
+      {
+        "id": 2,
+        "title": "Faça o pagamento pela plataforma 💰"
+      },
+      {
+        "id": 3,
+        "title": "Receba o seu site + QR Code no e-mail ✉️"
+      },
+      {
+        "id": 4,
+        "title": "Faça uma surpresa para alguém especial ❤️"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "items": [
+      {
+        "id": 1,
+        "title": "O que é a Moments?",
+        "answer": "Moments é uma plataforma que te permite criar lembranças de momentos especiais para você, seja com amigos, namorada(o), esposa(o) ou em família. Você pode adicionar fotos, uma mensagem especial e um contador que mostra há quanto tempo esta relação existe."
+      },
+      {
+        "id": 2,
+        "title": "Como posso criar uma página personalizada no Moments?",
+        "answer": "Para criar uma página personalizada, preencha o formulário com o nome do momento, a data que aconteceu, uma mensagem e selecione até 5 fotos. Depois, clique no botão 'Criar Momento' e finalize o pagamento."
+      },
+      {
+        "id": 4,
+        "title": "O que está incluído na minha página personalizada?",
+        "answer": "Sua página personalizada incluirá contador ao vivo mostrando há quanto tempo esta memória existe, uma apresentação de slides com suas fotos e uma mensagem especial para o momento. Além disso, haverá emojis caindo em cada foto."
+      },
+      {
+        "id": 5,
+        "title": "Como recebo minha página personalizada após o pagamento?",
+        "answer": "Após a conclusão do pagamento, você receberá um QR code para compartilhar com alguém especial e um link via e-mail para acessar sua página."
+      },
+      {
+        "id": 6,
+        "title": "Posso editar minha página depois de criá-la?",
+        "answer": "Sim. Assim que você receber o link para a sua página, ele incluirá uma seção de edição que você pode usar para fazer alterações."
+      },
+      {
+        "id": 7,
+        "title": "Qual é o custo para criar uma página no Moments?",
+        "answer": "No momento, o custo para criar uma página no Moments é de apenas R$ 19,00 no preço básico e R$ 39,99 no preço avançado."
+      },
+      {
+        "id": 8,
+        "title": "Quanto tempo demora para receber o QR code no e-mail?",
+        "answer": "Pagamentos com pix e cartão de crédito ficam prontos na hora. Pagamentos por boleto podem demorar de 1 a 3 dias úteis para compensar."
+      },
+      {
+        "id": 9,
+        "title": "Quais são as formas de pagamento?",
+        "answer": "No momento, aceitamos pagamentos por pix, boleto e cartão de crédito."
+      },
+      {
+        "id": 10,
+        "title": "Como posso entrar em contato com o suporte ao cliente?",
+        "answer": "Você pode entrar em contato com nosso suporte ao cliente através do e-mail suporte@moments.com.br."
+      }
+    ]
+  },
+  "footer": {
+    "links": {
+      "termsOfUse": "Termos de uso",
+      "policyPrivacy": "Política de privacidade"
+    }
+  }
+}
