@@ -1,0 +1,125 @@
+{
+  "app": {
+    "routes": {
+      "termsOfUse": "conditions-d-utilisation",
+      "policyPrivacy": "politique-de-confidentialite"
+    }
+  },
+  "hero": {
+    "newTitle": "Nouvelles",
+    "title": {
+      "create": "Créer",
+      "memories": "Souvenirs",
+      "share": "Partager",
+      "moments": "Moments"
+    },
+    "description": {
+      "content": "Créez un compte à rebours dynamique de votre souvenir spécial.\nRemplissez le formulaire et recevez votre site web personnalisé + QR Code à partager avec cette personne spéciale.",
+      "buildFor": "(amis, famille et amour)"
+    },
+    "news": {
+      "checklist": {
+        "title": "liste de contrôle pour les couples"
+      }
+    },
+    "momentForm": {
+      "fields": {
+        "title": {
+          "name": "Nom",
+          "happeningDate": "Date de l'événement",
+          "hour": "Heure",
+          "message": "Message",
+          "images": "Sélectionnez au moins 3 images (.png/.bmp/jpeg)"
+        },
+        "placeholder": {
+          "name": "Donnez un nom à votre moment",
+          "message": "Écrivez un message ou une phrase qui exprime ce moment."
+        }
+      },
+      "buttonRequestTitle": "Création...",
+      "buttonTitle": "Créer le moment"
+    },
+    "howItLook": "À quoi cela ressemblera"
+  },
+  "featured": {
+    "in": "En vedette dans"
+  },
+  "howTo": {
+    "title": "Comment ça fonctionne",
+    "buttonText": "Je veux créer mon site",
+    "howToItems": [
+      {
+        "id": 1,
+        "title": "Remplissez le formulaire avec vos détails 📝"
+      },
+      {
+        "id": 2,
+        "title": "Effectuez le paiement via la plateforme 💰"
+      },
+      {
+        "id": 3,
+        "title": "Recevez votre site web + QR Code par e-mail ✉️"
+      },
+      {
+        "id": 4,
+        "title": "Surprenez quelqu'un de spécial ❤️"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "items": [
+      {
+        "id": 1,
+        "title": "Qu'est-ce que Moments?",
+        "answer": "Moments est une plateforme qui vous permet de créer des souvenirs de moments spéciaux pour vous-même, que ce soit avec des amis, un petit ami/une petite amie, un conjoint ou la famille. Vous pouvez ajouter des photos, un message spécial et un compteur en direct qui montre combien de temps cette relation a duré."
+      },
+      {
+        "id": 2,
+        "title": "Comment puis-je créer une page personnalisée sur Moments?",
+        "answer": "Pour créer une page personnalisée, remplissez le formulaire avec le nom du moment, la date à laquelle cela s'est produit, un message et sélectionnez jusqu'à 5 photos. Ensuite, cliquez sur le bouton 'Créer le moment' et complétez le paiement."
+      },
+      {
+        "id": 4,
+        "title": "Qu'est-ce qui est inclus dans ma page personnalisée?",
+        "answer": "Votre page personnalisée comprendra un compteur en direct montrant combien de temps ce souvenir a duré, un diaporama de photos et un message spécial pour le moment. De plus, des emojis tomberont sur chaque photo."
+      },
+      {
+        "id": 5,
+        "title": "Comment recevrai-je ma page personnalisée après le paiement?",
+        "answer": "Après avoir complété le paiement, vous recevrez un QR code à partager avec quelqu'un de spécial et un lien par e-mail pour accéder à votre page."
+      },
+      {
+        "id": 6,
+        "title": "Puis-je éditer ma page après l'avoir créée?",
+        "answer": "Oui. Une fois que vous avez reçu le lien vers votre page, il contiendra une section d'édition que vous pouvez utiliser pour apporter des modifications."
+      },
+      {
+        "id": 7,
+        "title": "Quel est le coût pour créer une page sur Moments?",
+        "answer": "Actuellement, le coût pour créer une page sur Moments est de seulement 19,00 $ pour la version de base et de 39,99 $ pour la version avancée."
+      },
+      {
+        "id": 8,
+        "title": "Combien de temps faut-il pour recevoir le QR code par e-mail?",
+        "answer": "Les paiements par pix et carte de crédit sont traités instantanément. Les paiements par bulletin bancaire peuvent prendre 1 à 3 jours ouvrables pour être traités."
+      },
+      {
+        "id": 9,
+        "title": "Quelles sont les méthodes de paiement?",
+        "answer": "Actuellement, nous acceptons les paiements par pix, bulletin bancaire et carte de crédit."
+      },
+      {
+        "id": 10,
+        "title": "Comment puis-je contacter le service client?",
+        "answer": "Vous pouvez contacter notre service client par e-mail à suporte@moments.com.br."
+      }
+    ]
+  },
+  "footer": {
+    "links": {
+      "termsOfUse": "Conditions d'utilisation",
+      "policyPrivacy": "Politique de confidentialité"
+    }
+  }
+}

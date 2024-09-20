@@ -4,9 +4,21 @@
     position: relative;
     width: 204px;
     height: 204px; }
+  #header .header-select {
+    float: right;
+    width: 150px;
+    z-index: 999;
+    margin-top: 30px;
+    margin-right: 180px; }
+  #header .css-13cymwt-control {
+    background-color: #030D21;
+    color: #FFF; }
+  #header .css-1dimb5e-singleValue {
+    position: relative;
+    color: #FFF !important; }
   #header .language-selector {
     position: absolute;
-    margin-left: -200px;
+    margin-left: -130px;
     margin-top: 85px;
     border-radius: 12px;
     z-index: 999;
@@ -17,18 +29,5 @@
     #header .language-selector .react-select__indicator-separator {
       position: relative;
       display: none; }
-    #header .language-selector .react-select__control {
-      border: none !important;
-      box-shadow: none;
-      background: transparent;
-      appearance: none;
-      outline: none; }
-    #header .language-selector .react-select__menu {
-      background-color: #030D21;
-      z-index: 1000; }
-      #header .language-selector .react-select__menu:hover, #header .language-selector .react-select__menu.over {
-        position: relative;
-        background-color: #030D21;
-        color: #98cb98; }
 
 /*# sourceMappingURL=Header.css.map */

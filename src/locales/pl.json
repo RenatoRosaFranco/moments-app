@@ -1,0 +1,125 @@
+{
+  "app": {
+    "routes": {
+      "termsOfUse": "warunki-uzytkowania",
+      "policyPrivacy": "polityka-prywatnosci"
+    }
+  },
+  "hero": {
+    "newTitle": "Aktualności",
+    "title": {
+      "create": "Stwórz",
+      "memories": "Wspomnienia",
+      "share": "Udostępnij",
+      "moments": "Chwile"
+    },
+    "description": {
+      "content": "Stwórz dynamiczny licznik odliczający do twojego wyjątkowego wspomnienia.\nWypełnij formularz i otrzymaj swoją spersonalizowaną stronę internetową + kod QR, aby podzielić się nim z wyjątkową osobą",
+      "buildFor": "(przyjaciele, rodzina i miłość)"
+    },
+    "news": {
+      "checklist": {
+        "title": "lista kontrolna dla par"
+      }
+    },
+    "momentForm": {
+      "fields": {
+        "title": {
+          "name": "Nazwa",
+          "happeningDate": "Data wydarzenia",
+          "hour": "Godzina",
+          "message": "Wiadomość",
+          "images": "Wybierz do 3 obrazków (.png/.bmp/.jpeg)"
+        },
+        "placeholder": {
+          "name": "Nadaj nazwę swojej chwili",
+          "message": "Napisz wiadomość lub frazę, która wyrazi tę chwilę."
+        }
+      },
+      "buttonRequestTitle": "Tworzenie...",
+      "buttonTitle": "Stwórz chwilę"
+    },
+    "howItLook": "Jak to będzie wyglądać"
+  },
+  "featured": {
+    "in": "Wyróżnione w"
+  },
+  "howTo": {
+    "title": "Jak to działa",
+    "buttonText": "Chcę stworzyć swoją stronę",
+    "howToItems": [
+      {
+        "id": 1,
+        "title": "Wypełnij formularz swoimi danymi 📝"
+      },
+      {
+        "id": 2,
+        "title": "Zapłać za pośrednictwem platformy 💰"
+      },
+      {
+        "id": 3,
+        "title": "Otrzymaj swoją stronę + kod QR na email ✉️"
+      },
+      {
+        "id": 4,
+        "title": "Zaskocz wyjątkową osobę ❤️"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Często zadawane pytania",
+    "items": [
+      {
+        "id": 1,
+        "title": "Czym jest Moments?",
+        "answer": "Moments to platforma, która umożliwia tworzenie wspomnień z wyjątkowych chwil, czy to z przyjaciółmi, partnerem/partnerką, małżonkiem lub rodziną. Możesz dodawać zdjęcia, specjalną wiadomość oraz licznik czasu na żywo, który pokazuje, jak długo trwa ten związek."
+      },
+      {
+        "id": 2,
+        "title": "Jak mogę stworzyć spersonalizowaną stronę w Moments?",
+        "answer": "Aby stworzyć spersonalizowaną stronę, wypełnij formularz z nazwą momentu, datą wydarzenia, wiadomością i wybierz do 5 zdjęć. Następnie kliknij przycisk 'Utwórz moment' i dokonaj płatności."
+      },
+      {
+        "id": 4,
+        "title": "Co jest zawarte w mojej spersonalizowanej stronie?",
+        "answer": "Twoja spersonalizowana strona będzie zawierać licznik czasu na żywo, który pokazuje, jak długo trwa to wspomnienie, pokaz slajdów zdjęć i specjalną wiadomość dla tego momentu. Dodatkowo na każdym zdjęciu pojawią się spadające emoji."
+      },
+      {
+        "id": 5,
+        "title": "Jak otrzymam swoją spersonalizowaną stronę po dokonaniu płatności?",
+        "answer": "Po zakończeniu płatności otrzymasz kod QR do udostępnienia wyjątkowej osobie oraz link do strony na swój adres e-mail."
+      },
+      {
+        "id": 6,
+        "title": "Czy mogę edytować swoją stronę po jej utworzeniu?",
+        "answer": "Tak. Po otrzymaniu linku do swojej strony znajdziesz sekcję edycji, której możesz użyć do wprowadzenia zmian."
+      },
+      {
+        "id": 7,
+        "title": "Ile kosztuje utworzenie strony w Moments?",
+        "answer": "Obecnie koszt utworzenia strony w Moments wynosi tylko 19,00 USD za wersję podstawową i 39,99 USD za wersję zaawansowaną."
+      },
+      {
+        "id": 8,
+        "title": "Jak długo trwa otrzymanie kodu QR na e-mail?",
+        "answer": "Płatności dokonane za pomocą pix i karty kredytowej są przetwarzane natychmiast. Płatności przelewem bankowym mogą potrwać od 1 do 3 dni roboczych."
+      },
+      {
+        "id": 9,
+        "title": "Jakie są dostępne metody płatności?",
+        "answer": "Obecnie akceptujemy płatności za pomocą pix, przelewu bankowego oraz karty kredytowej."
+      },
+      {
+        "id": 10,
+        "title": "Jak mogę skontaktować się z działem obsługi klienta?",
+        "answer": "Możesz skontaktować się z naszym działem obsługi klienta, wysyłając e-mail na adres: suporte@moments.com.br."
+      }
+    ]
+  },
+  "footer": {
+    "links": {
+      "termsOfUse": "Warunki Użytkowania",
+      "policyPrivacy": "Polityka Prywatności"
+    }
+  }
+}

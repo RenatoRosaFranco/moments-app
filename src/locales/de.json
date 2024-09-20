@@ -1,0 +1,100 @@
+{
+  "app": {
+    "routes": {
+      "termsOfUse": "nutzungsbedingungen",
+      "policyPrivacy": "datenschutzrichtlinie"
+    }
+  },
+  "hero": {
+    "newTitle": "Nachrichten",
+    "title": {
+      "create": "Erstellen",
+      "memories": "Erinnerungen",
+      "share": "Teilen",
+      "moments": "Momente"
+    },
+    "description": {
+      "content": "Erstelle einen dynamischen Countdown für deine besondere Erinnerung.\nFülle das Formular aus und erhalte deine personalisierte Website + QR-Code, um sie mit einer besonderen Person zu teilen.",
+      "buildFor": "(Freunde, Familie und Liebe)"
+    },
+    "news": {
+      "checklist": {
+        "title": "Checkliste für Paare"
+      }
+    },
+    "momentForm": {
+      "fields": {
+        "title": {
+          "name": "Name",
+          "happeningDate": "Ereignisdatum",
+          "hour": "Uhrzeit",
+          "message": "Nachricht",
+          "images": "Wähle bis zu 3 Bilder (.png/.bmp/.jpeg)"
+        },
+        "placeholder": {
+          "name": "Gib deinem Moment einen Namen",
+          "message": "Schreibe eine Nachricht oder einen Satz, der diesen Moment ausdrückt."
+        }
+      },
+      "buttonRequestTitle": "Wird erstellt...",
+      "buttonTitle": "Moment erstellen"
+    },
+    "howItLook": "So wird es aussehen"
+  },
+  "featured": {
+    "in": "Vorgestellt in"
+  },
+  "howTo": {
+    "title": "Wie es funktioniert",
+    "buttonText": "Ich möchte meine Seite erstellen",
+    "howToItems": [
+      {
+        "id": 1,
+        "title": "Fülle das Formular mit deinen Angaben aus 📝"
+      },
+      {
+        "id": 2,
+        "title": "Zahle über die Plattform 💰"
+      },
+      {
+        "id": 3,
+        "title": "Erhalte deine Website + QR-Code per E-Mail ✉️"
+      },
+      {
+        "id": 4,
+        "title": "Überrasche eine besondere Person ❤️"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "id": 1,
+        "title": "Was ist Moments?",
+        "answer": "Moments ist eine Plattform, die es dir ermöglicht, Erinnerungen an besondere Momente zu erstellen, sei es mit Freunden, einem Freund/einer Freundin, Ehepartner oder Familie. Du kannst Fotos hinzufügen, eine spezielle Nachricht verfassen und einen Live-Countdown anzeigen, wie lange diese Beziehung schon besteht."
+      },
+      {
+        "id": 2,
+        "title": "Wie kann ich eine personalisierte Seite auf Moments erstellen?",
+        "answer": "Um eine personalisierte Seite zu erstellen, fülle das Formular mit dem Namen des Moments, dem Datum, an dem er stattfand, einer Nachricht und bis zu 5 Fotos aus. Klicke dann auf die Schaltfläche 'Moment erstellen' und schließe die Zahlung ab."
+      },
+      {
+        "id": 4,
+        "title": "Was ist im Moments-Paket enthalten?",
+        "answer": "Das Moments-Paket beinhaltet eine personalisierte Website mit deiner Erinnerung, einen Live-Countdown, wie lange der Moment bereits andauert, und einen QR-Code, den du mit einer besonderen Person teilen kannst. Du kannst die Seite auch mit einer Nachricht und Fotos anpassen."
+      },
+      {
+        "id": 5,
+        "title": "Wie viel kostet es?",
+        "answer": "Die Kosten variieren je nach Paket, das du wählst, und beginnen bei 10 € für das Basispaket. Weitere Anpassungsoptionen sind gegen Aufpreis verfügbar."
+      }
+    ]
+  },
+  "footer": {
+    "links": {
+      "termsOfUse": "Nutzungsbedingungen",
+      "policyPrivacy": "Datenschutzrichtlinie"
+    }
+  }
+}

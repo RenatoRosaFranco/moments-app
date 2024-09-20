@@ -9,7 +9,7 @@ import { createMoment } from "../../business/moment";
 import {toast} from "react-toastify";
 
 export const Hero = () => {
-    const [setImages] = useState([]);
+    const [images, setImages] = useState([]);
     const { t } = useTranslation();
 
     const handleImageChange = (e, setFieldValue) => {

@@ -1,0 +1,125 @@
+{
+  "app": {
+    "routes": {
+      "termsOfUse": "termini-di-utilizzo",
+      "policyPrivacy": "politica-sulla-privacy"
+    }
+  },
+  "hero": {
+    "newTitle": "Notizie",
+    "title": {
+      "create": "Crea",
+      "memories": "Ricordi",
+      "share": "Condividi",
+      "moments": "Momenti"
+    },
+    "description": {
+      "content": "Crea un conto alla rovescia dinamico per il tuo ricordo speciale.\nCompila il modulo e ricevi il tuo sito web personalizzato + QR Code da condividere con una persona speciale",
+      "buildFor": "(amici, famiglia e amore)"
+    },
+    "news": {
+      "checklist": {
+        "title": "lista di controllo per le coppie"
+      }
+    },
+    "momentForm": {
+      "fields": {
+        "title": {
+          "name": "Nome",
+          "happeningDate": "Data dell'evento",
+          "hour": "Ora",
+          "message": "Messaggio",
+          "images": "Seleziona fino a 3 immagini (.png/.bmp/.jpeg)"
+        },
+        "placeholder": {
+          "name": "Dai un nome al tuo momento",
+          "message": "Scrivi un messaggio o una frase che esprima questo momento."
+        }
+      },
+      "buttonRequestTitle": "Creazione in corso...",
+      "buttonTitle": "Crea momento"
+    },
+    "howItLook": "Come apparirà"
+  },
+  "featured": {
+    "in": "In primo piano in"
+  },
+  "howTo": {
+    "title": "Come funziona",
+    "buttonText": "Voglio creare il mio sito",
+    "howToItems": [
+      {
+        "id": 1,
+        "title": "Compila il modulo con i tuoi dettagli 📝"
+      },
+      {
+        "id": 2,
+        "title": "Effettua il pagamento tramite la piattaforma 💰"
+      },
+      {
+        "id": 3,
+        "title": "Ricevi il tuo sito web + QR Code via email ✉️"
+      },
+      {
+        "id": 4,
+        "title": "Sorprendi una persona speciale ❤️"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "items": [
+      {
+        "id": 1,
+        "title": "Cos'è Moments?",
+        "answer": "Moments è una piattaforma che ti permette di creare ricordi di momenti speciali per te stesso, sia con amici, fidanzato/a, coniuge o famiglia. Puoi aggiungere foto, un messaggio speciale e un contatore dal vivo che mostra quanto tempo è durata questa relazione."
+      },
+      {
+        "id": 2,
+        "title": "Come posso creare una pagina personalizzata su Moments?",
+        "answer": "Per creare una pagina personalizzata, compila il modulo con il nome del momento, la data in cui è accaduto, un messaggio e seleziona fino a 5 foto. Poi clicca sul pulsante 'Crea Momento' e completa il pagamento."
+      },
+      {
+        "id": 4,
+        "title": "Cosa è incluso nella mia pagina personalizzata?",
+        "answer": "La tua pagina personalizzata includerà un contatore dal vivo che mostra quanto tempo è passato da questo momento, una presentazione di foto e un messaggio speciale per il momento. Inoltre, ci saranno emoji che cadono su ogni foto."
+      },
+      {
+        "id": 5,
+        "title": "Come ricevo la mia pagina personalizzata dopo il pagamento?",
+        "answer": "Dopo aver completato il pagamento, riceverai un codice QR da condividere con una persona speciale e un link via email per accedere alla tua pagina."
+      },
+      {
+        "id": 6,
+        "title": "Posso modificare la mia pagina dopo averla creata?",
+        "answer": "Sì. Una volta ricevuto il link alla tua pagina, ci sarà una sezione di modifica che puoi utilizzare per apportare modifiche."
+      },
+      {
+        "id": 7,
+        "title": "Qual è il costo per creare una pagina su Moments?",
+        "answer": "Attualmente, il costo per creare una pagina su Moments è solo di 19,00 $ per la versione base e di 39,99 $ per la versione avanzata."
+      },
+      {
+        "id": 8,
+        "title": "Quanto tempo ci vuole per ricevere il codice QR via email?",
+        "answer": "I pagamenti tramite pix e carta di credito vengono elaborati istantaneamente. I pagamenti tramite bonifico bancario possono richiedere da 1 a 3 giorni lavorativi."
+      },
+      {
+        "id": 9,
+        "title": "Quali sono i metodi di pagamento?",
+        "answer": "Attualmente, accettiamo pagamenti tramite pix, bonifico bancario e carta di credito."
+      },
+      {
+        "id": 10,
+        "title": "Come posso contattare il servizio clienti?",
+        "answer": "Puoi contattare il nostro servizio clienti via email all'indirizzo suporte@moments.com.br."
+      }
+    ]
+  },
+  "footer": {
+    "links": {
+      "termsOfUse": "Termini di Utilizzo",
+      "policyPrivacy": "Politica sulla Privacy"
+    }
+  }
+}
