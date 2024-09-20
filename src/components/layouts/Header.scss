@@ -14,27 +14,32 @@
     border-radius: 12px;
     z-index: 999;
     padding: 5px;
-    background-color: transparent !important;
+    background-color: #030D21 !important;
     color: #FFF;
     border: 1px solid #EEE;
 
-    select {
+    .react-select__indicator-separator {
+      position: relative;
+      display: none;
+    }
+
+    .react-select__control {
+      border: none !important;
+      box-shadow: none;
       background: transparent;
-      border: none;
       appearance: none;
       outline: none;
-      padding: 5px;
-      width: 130px;
+    }
+
+    .react-select__menu {
+      background-color: #030D21;
+      z-index: 1000;
+
+      &:hover, &.over {
+        position: relative;
+        background-color: #030D21;
+        color: #98cb98;
+      }
     }
   }
-
-  .language-selector::after {
-    content: '▼';
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    pointer-events: none;
-  }
-
 }
