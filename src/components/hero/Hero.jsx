@@ -9,6 +9,7 @@ import { createMoment } from "../../business/moment";
 import {toast} from "react-toastify";
 
 export const Hero = () => {
+    // eslint-disable-next-line no-unused-vars
     const [images, setImages] = useState([]);
     const { t } = useTranslation();
 
