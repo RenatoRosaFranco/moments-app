@@ -38,12 +38,19 @@ $main-color: rgba(152,203,152,255);
     border: 1px solid $main-color !important;
   }
 
+  .validButton {
+    position: relative;
+    color: #FFF;
+    background-color: #98cb98 !important;
+    border: 1px solid #98cb98 !important;
+  }
+
   .m-button {
     position: relative;
     margin-top: 20px;
     color: #FFF;
-    background-color: rgb(44, 52, 65) !important;
-    border: 1px solid rgb(44, 52, 65) !important;
+    background-color: rgb(44, 52, 65);
+    border: 1px solid rgb(44, 52, 65);
   }
 
   .badge {
@@ -78,6 +85,5 @@ $main-color: rgba(152,203,152,255);
       border: 1px solid #EEE;
       height: 350px;
     }
-
   }
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { initialValues, momentSchema } from "../../schemas/momentSchema";
@@ -6,12 +7,13 @@ import './Hero.scss';
 
 import { ImageSlider } from "./ImageSlider";
 import { createMoment } from "../../business/moment";
-import {toast} from "react-toastify";
+import { toast } from "react-toastify";
 
 export const Hero = () => {
     // eslint-disable-next-line no-unused-vars
     const [images, setImages] = useState([]);
     const { t } = useTranslation();
+    const navigate = useNavigate();
 
     const handleImageChange = (e, setFieldValue) => {
         const files = Array.from(e.target.files);
@@ -44,6 +46,8 @@ export const Hero = () => {
             if (result.success) {
                 setStatus({ message: result.message });
                 toast.success('Momento registrado com sucesso!');
+
+                navigate('/');
             } else {
                 setStatus({ message: `Erro: ${result.message}` });
                 toast.error(`Erro: ${result.message}`);
@@ -66,7 +70,7 @@ export const Hero = () => {
                             validationSchema={momentSchema}
                             onSubmit={handleSubmit}
                         >
-                            {({ setFieldValue, values, isSubmitting, status }) => (
+                            {({ setFieldValue, values, isSubmitting, status, isValid, dirty }) => (
                                 <Form>
                                     <div className="col-md-8" style={{ paddingRight: 80 }}>
                                         <h5>{t('hero.newTitle')}: <span className='badge'>{t('hero.news.checklist.title')}</span></h5>
@@ -155,8 +159,8 @@ export const Hero = () => {
 
                                             <button
                                                 type='submit'
-                                                className='btn btn-primary m-button'
-                                                disabled={isSubmitting}
+                                                className={`btn btn-primary m-button ${ isValid ? 'validButton' : ''}`}
+                                                disabled={isSubmitting || !isValid || !dirty}
                                                 style={{
                                                     width: '100%',
                                                     fontWeight: 'bold',
