@@ -7,6 +7,16 @@
   },
   "hero": {
     "newTitle": "Novidad",
+    "title": {
+      "create": "Crea",
+      "memories": "Recuerdos",
+      "share": "Comparte",
+      "moments": "Momentos"
+    },
+    "description": {
+      "content": "Crea un contador dinámico de tiempo de tu recuerdo especial.\nCompleta el formulario y recibe tu sitio web personalizado + Código QR para compartir con esa persona especial",
+      "buildFor": "(amigos, familia y amor)"
+    },
     "news": {
       "checklist": {
         "title": "lista de verificación para parejas"
@@ -30,6 +40,9 @@
       "buttonTitle": "Crear momento"
     },
     "howItLook": "Cómo se verá"
+  },
+  "featured": {
+    "in": "Destacado en"
   },
   "howTo": {
     "title": "Cómo funciona",

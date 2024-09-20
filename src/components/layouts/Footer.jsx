@@ -11,8 +11,8 @@ export const Footer = () => {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="col-md-6">
-                            <p>
-                                Feito por <span className='bold'>SQUARE Inc</span>
+                            <p><span
+                                className='bold'>SQUARE INC &copy; 2024</span>
                             </p>
                         </div>
 

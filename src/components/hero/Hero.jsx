@@ -69,12 +69,10 @@ export const Hero = () => {
                                 <Form>
                                     <div className="col-md-8" style={{ paddingRight: 80 }}>
                                         <h5>{t('hero.newTitle')}: <span className='badge'>{t('hero.news.checklist.title')}</span></h5>
-                                        <h1 className='title bold'>Crie <span className='m-color'>memórias</span>
-                                            <br /> compartilhe <span className='m-color'>momentos</span>.</h1>
-                                        <p className='description'>Crie um contador dinâmico de tempo de sua memória especial.
-                                            Preencha o formulário e receba o seu site personalizado + QR Code para
-                                            compartilhar com aquele alguém especial. <span className='bold m-color'>
-                                                (amigos, família e amor) 🙂</span></p>
+                                        <h1 className='title bold'>{ t('hero.title.create') } <span className='m-color'>{ t('hero.title.memories') }</span>
+                                            <br />{ t('hero.title.share') }<span className='m-color'> { t('hero.title.moments') }</span>.</h1>
+                                        <p className='description'>{ t('hero.description.content') } <span className='bold m-color'>
+                                                { t('hero.description.buildFor') } 🙂</span></p>
                                         <br />
 
                                         <div className="row">

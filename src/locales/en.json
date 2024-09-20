@@ -7,6 +7,16 @@
   },
   "hero": {
     "newTitle": "News",
+    "title": {
+      "create": "Create",
+      "memories": "Memories",
+      "share": "Share",
+      "moments": "Moments"
+    },
+    "description": {
+      "content": "Create a dynamic countdown of your special memory.\nFill out the form and receive your personalized website + QR Code to share with that special someone",
+      "buildFor": "(friends, family, and love)"
+    },
     "news": {
       "checklist": {
         "title": "checklist for couples"
@@ -30,6 +40,9 @@
       "buttonTitle": "Create moment"
     },
     "howItLook": "How will it look"
+  },
+  "featured": {
+    "in": "Featured in"
   },
   "howTo": {
     "title": "How it works",
